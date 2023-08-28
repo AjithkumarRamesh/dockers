@@ -9,5 +9,9 @@ public class WebApp {
 	public String get() {
 		return "hi All";
 	}
+	@GetMapping("getTwo")
+	public String getone() {
+		return "hi World";
+	}
 
 }
